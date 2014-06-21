@@ -117,7 +117,7 @@ header {
 				color: rgba(white, .95);
 				border: 2px solid rgba(white, .85);
 				border-radius: 100%;
-				padding: 24px 19px;
+				padding: 24px 21px;
 				font-size: 2.9rem;
 				margin: 4.5rem .8rem 0 0;
 				display: inline-block;
@@ -135,6 +135,9 @@ header {
 				    margin-left: 16px;
 				    position: static;	    
 				}
+				@media screen and (max-height: 760px) {
+				   padding: 24px 22px;
+				 }
 			}
 		} // simplify
 	} // header-wrapper

@@ -624,7 +624,7 @@ header .header-wrapper .simplify .badge {
   color: rgba(255, 255, 255, 0.95);
   border: 2px solid rgba(255, 255, 255, 0.85);
   border-radius: 100%;
-  padding: 24px 19px;
+  padding: 24px 21px;
   font-size: 2.9rem;
   margin: 4.5rem .8rem 0 0;
   display: inline-block;
@@ -650,8 +650,14 @@ header .header-wrapper .simplify .badge:hover {
     position: static;
   }
 }
+@media screen and (max-height: 760px) {
+  /* line 116, ../sass/main.scss */
+  header .header-wrapper .simplify .badge {
+    padding: 24px 22px;
+  }
+}
 
-/* line 143, ../sass/main.scss */
+/* line 146, ../sass/main.scss */
 .container {
   font-family: 'Lato', sans-serif;
   padding: 10% 15% 3%;
@@ -661,20 +667,20 @@ header .header-wrapper .simplify .badge:hover {
   background-position: no-repeat;
   background-size: cover;
 }
-/* line 154, ../sass/main.scss */
+/* line 157, ../sass/main.scss */
 .container p {
   font-weight: 100;
   margin-left: 32%;
   font-size: 1.4rem;
   line-height: 1.3;
 }
-/* line 159, ../sass/main.scss */
+/* line 162, ../sass/main.scss */
 .container p span.aint {
   opacity: 0.6;
   position: relative;
   transition: all 12s;
 }
-/* line 163, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 .container p span.aint:after {
   content: "Ain't nobody got time for that.";
   font-family: Helvetica, sans-serif;
@@ -693,18 +699,18 @@ header .header-wrapper .simplify .badge:hover {
   opacity: 0;
   transition: all 0.2s ease;
 }
-/* line 181, ../sass/main.scss */
+/* line 184, ../sass/main.scss */
 .container p span.aint:hover:after {
   visibility: visible;
   opacity: 1;
 }
 @media screen and (max-width: 800px) {
-  /* line 154, ../sass/main.scss */
+  /* line 157, ../sass/main.scss */
   .container p {
     margin-left: 0;
   }
 }
-/* line 191, ../sass/main.scss */
+/* line 194, ../sass/main.scss */
 .container h2, .container header .header-wrapper .simplify p, header .header-wrapper .simplify .container p {
   margin: 0;
   margin-bottom: 5rem;
@@ -714,13 +720,13 @@ header .header-wrapper .simplify .badge:hover {
   opacity: 0.85;
 }
 @media screen and (max-width: 800px) {
-  /* line 191, ../sass/main.scss */
+  /* line 194, ../sass/main.scss */
   .container h2, .container header .header-wrapper .simplify p, header .header-wrapper .simplify .container p {
     width: 100%;
     font-size: 3.3rem;
   }
 }
-/* line 203, ../sass/main.scss */
+/* line 206, ../sass/main.scss */
 .container blockquote {
   font-style: italic;
   font-weight: 300;
@@ -735,13 +741,13 @@ header .header-wrapper .simplify .badge:hover {
   opacity: 0.80;
 }
 @media screen and (max-width: 800px) {
-  /* line 203, ../sass/main.scss */
+  /* line 206, ../sass/main.scss */
   .container blockquote {
     width: 100%;
     margin-left: 0;
   }
 }
-/* line 225, ../sass/main.scss */
+/* line 228, ../sass/main.scss */
 .container .appicon {
   margin-top: 20px;
   font-style: italic;
@@ -753,7 +759,7 @@ header .header-wrapper .simplify .badge:hover {
   background-position: 8px bottom;
   background-repeat: no-repeat;
 }
-/* line 237, ../sass/main.scss */
+/* line 240, ../sass/main.scss */
 .container a.store {
   display: inline-block;
   margin-top: 20px;
@@ -763,31 +769,31 @@ header .header-wrapper .simplify .badge:hover {
   background-repeat: no-repeat;
   overflow: visible;
 }
-/* line 246, ../sass/main.scss */
+/* line 249, ../sass/main.scss */
 .container .itunes {
   background-image: url("../img/appStore_badge.svg");
   width: 138px;
   height: 40px;
   opacity: 0.9;
 }
-/* line 253, ../sass/main.scss */
+/* line 256, ../sass/main.scss */
 .container .play {
   background-image: url("../img/android_badge.png");
   width: 118px;
   height: 40px;
   opacity: 0.9;
 }
-/* line 261, ../sass/main.scss */
+/* line 264, ../sass/main.scss */
 .container footer {
   padding-top: 3rem;
 }
-/* line 263, ../sass/main.scss */
+/* line 266, ../sass/main.scss */
 .container footer p {
   font-size: 1rem;
   opacity: 0.2;
   line-height: 1.1;
 }
-/* line 267, ../sass/main.scss */
+/* line 270, ../sass/main.scss */
 .container footer p a {
   color: white;
 }
